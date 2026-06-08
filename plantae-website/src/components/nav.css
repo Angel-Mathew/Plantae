@@ -1,0 +1,10 @@
+.navbar{
+background-color: #808000;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+}
