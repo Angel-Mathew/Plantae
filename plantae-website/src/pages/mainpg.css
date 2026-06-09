@@ -159,3 +159,131 @@
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/*  For Tablets */
+@media (max-width: 1024px) {
+    .about-content {
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .about-text p {
+        font-size: 34px; 
+    }
+
+    .about-image img {
+        width: 280px;
+    }
+
+    .plants-grid {
+        gap: 25px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+/*  For Mobile Phones  */
+@media (max-width: 768px) {
+    
+    /* Navbar Adjustments */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    .logo {
+        height: 70px; 
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    }
+
+    
+    .about-section {
+        margin-top: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-text p {
+        font-size: 28px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .about-image img {
+        width: 240px;
+        border-width: 8px; /* Thinner border for small screens */
+    }
+
+    /* Search Bar - Make it full width */
+    .search-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .search-box {
+        padding: 5px 15px;
+    }
+
+    .search-box input {
+        font-size: 18px;
+    }
+
+    /* Category Buttons - Stack them for easier tapping */
+    .category-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .category-buttons button {
+        width: 80%; /* Big buttons for thumbs */
+        margin: 0;
+        font-size: 18px;
+    }
+
+ 
+    .plants-grid {
+        grid-template-columns: 1fr; 
+        padding: 0 10px;
+    }
+
+    
+    .plant-card {
+        border-radius: 0 50px 0 50px;
+    }
+
+    .plant-card h3 {
+        font-size: 22px;
+    }
+
+    
+    .tagline {
+        font-size: 26px;
+        text-align: center;
+        padding: 0 15px;
+    }
+}
+
+/*  For Very Small Phones  */
+@media (max-width: 400px) {
+    .about-text p {
+        font-size: 24px;
+    }
+    
+    .category-buttons button {
+        width: 100%;
+    }
+}

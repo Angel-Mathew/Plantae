@@ -115,7 +115,7 @@ const Plantcard = ({ plant }) => {
         if (!showDetails) {
             setShowDetails(true);
             
-            // Only fetch if we don't already have the data
+           
             if (!extraInfo) {
                 setLoadingDetails(true);
                 try {
@@ -132,11 +132,11 @@ const Plantcard = ({ plant }) => {
         }
     };
 
-    // --- LOGIC FOR IMAGES (Fixes Strawberry Tree issue) ---
+   
     const apiImg = plant.default_image?.regular_url || plant.default_image?.thumbnail;
     const isRestricted = apiImg?.includes("upgrade_access") || apiImg?.includes("premium");
     
-    // If API image is blocked/missing, use a beautiful high-res Unsplash nature photo
+    
     const imageUrl = (apiImg && !isRestricted) 
         ? apiImg 
         : "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=500&auto=format&fit=crop";
@@ -168,7 +168,7 @@ const Plantcard = ({ plant }) => {
                     <p>Loading care info...</p>
                 ) : (
                     <>
-                        {/* FIX FOR N/A: Check deep details, then list data, then use default */}
+                        
                         <p><strong>Sunlight:</strong> {
                             extraInfo?.sunlight?.join(', ') || 
                             (Array.isArray(plant.sunlight) ? plant.sunlight.join(', ') : "Full Sun")
