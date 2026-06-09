@@ -1,0 +1,161 @@
+.category-buttons button {
+    background-color: #808000; /* Match your wireframe */
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+   text-shadow: 1px 1px 3px #3f3f02;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.category-buttons button:hover {
+    background-color: #74740a;
+    transform: scale(1.05);
+}
+.mainpg-container{
+    padding:40px 8%;
+    background-color: #f5f5f5;
+}
+.about-section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:60px;
+}
+.about-content{
+    display:flex;
+    gap:50px;
+    align-items:center;
+    max-width:1000px;
+}
+.about-image img{
+    width:320px;
+    height:auto;
+    border:12px solid #4c4c03;
+    border-radius:50px;
+    display:block;
+}
+.about-text p{
+    font-family: "Italianno", cursive;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #808000;
+    
+    max-width:400px;
+
+}
+.search-container{
+   display:flex;
+   justify-content:center;
+   margin-bottom:50px;
+   margin-top:50px;
+}
+.search-box {
+    display:flex;
+    align-items:center;
+    background-color: #808000;
+    width:100%;
+    max-width:900px;
+    padding:5px 25px;
+     border-radius: 30px;
+   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.434);
+
+}
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding: 12px 0;
+    outline: none;
+}
+
+.search-box input::placeholder {
+    color: #423f3fd3;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 20px;
+    filter: invert(1); /* Makes the black icon white */
+}
+/* --- Plant Grid --- */
+.plants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 40px;
+    padding-top: 20px;
+}
+/* --- Plant Card (The Leaf Shape) --- */
+.plant-card {
+    background-color: #808000;
+    border-radius: 0 60px 0 60px; 
+    padding: 20px;
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.3);
+    position: relative;
+    color: white;
+    transition: transform 0.3s ease;
+
+}
+
+.plant-card:hover {
+    transform: translateY(-5px);
+}
+.plant-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.plant-card h3 {
+    text-shadow: 2px 3px 4px #3f3f02;
+    font-size: 26px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+/* More Button */
+.more-btn {
+    background-color: #c0c040; /* Lighter olive/gold */
+    border: none;
+    padding: 4px 18px;
+    border-radius: 20px;
+    font-family: 'Italianno', cursive;
+    font-size: 22px;
+    cursor: pointer;
+    float: right;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Details Dropdown Menu */
+.details-dropdown {
+    background-color: #c0c040; ;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    
+    font-size: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    animation: fadeIn 0.3s ease;
+}
+
+.details-dropdown p {
+    margin: 8px 0;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

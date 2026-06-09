@@ -1,24 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
+import Nav from './components/nav';
 import Footer from './components/Footer';
-import mainpg from './pages/mainpg';
+import Mainpg from './pages/mainpg';
 import './App.css';
 
-
-
-
-export default function App()
-{  return (
+export default function App() {
+  return (
     <Router>
-     <div className="App">
-      <Nav />
-      <Routes>
-        <Route path="/" element={<mainpg />} />
-      </Routes>
-      <Footer />
-     </div>
-
+      <div className="App">
+        <Nav />
+       
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Mainpg />} />
+          </Routes>
+        </div>
+        <Footer /> 
+      </div>
     </Router>
   );
 }

@@ -3,17 +3,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
-    height: 80px;
+    height: 90px; 
+    padding: 5px 50px;
 background-color: #808000;
+border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.86);
+
 }
 .logo{
-    height: 50px;
+    height: 95px;
     width: auto;
+    margin-top: 5px; /* Adjust this value to perfectly align the logo with the navbar */
 }
 .nav-links{
     display: flex;
     gap: 20px;
+    list-style: none;
+  
 }
 .nav-links a, .contact-trigger {
   color: white;
@@ -21,6 +28,9 @@ background-color: #808000;
   font-family: 'Italianno', cursive; /* Make sure to link a cursive font in your index.html */
   font-size: 24px;
   cursor: pointer;
+  text-decoration: none;
+  text-decoration: none;
+ 
 }
 .contact-dropdown {
   position: relative;

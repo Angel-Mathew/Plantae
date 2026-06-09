@@ -1,0 +1,51 @@
+/* footer.css */
+.main-footer {
+    background-color: #808000; 
+    padding: 40px 0;
+    width: 100%;
+    
+    margin-top: auto; 
+    border-top: 2px solid #5e5e06;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.tagline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    font-family: 'Italianno', cursive;
+    font-size: 42px;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    
+    animation: breathFloat 4s ease-in-out infinite;
+    display: inline-block;
+}
+
+/* The "Breathing/Floating" Logic */
+@keyframes breathFloat {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateY(-15px) scale(1.05); /* Floats up and grows slightly */
+        opacity: 1; /* Gets brighter */
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+    }
+}
+
+.footer-links {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+}

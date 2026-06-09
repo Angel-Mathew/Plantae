@@ -1,0 +1,12 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This is the key to seeing the footer */
+  text-align: center;
+  margin: 0;
+}
+
+.content {
+  flex: 1; /* This pushes the footer to the very bottom of the page */
+}
