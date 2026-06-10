@@ -92,6 +92,14 @@
     width: 20px;
     filter: invert(1); /* Makes the black icon white */
 }
+h2{
+font-family: "Italianno", cursive;
+    font-size: 38px;
+    color: #808000;
+
+    margin-top: 50px;
+    
+}
 /* --- Plant Grid --- */
 .plants-grid {
     display: grid;
