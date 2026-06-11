@@ -92,20 +92,27 @@
     width: 20px;
     filter: invert(1); /* Makes the black icon white */
 }
-h2{
-font-family: "Italianno", cursive;
-    font-size: 38px;
-    color: #808000;
-
-    margin-top: 50px;
+.grid-divider {
+    grid-column: 1 / -1; 
     
+    text-align: center;
+    width: 100%;
+    margin: 40px 0 20px 0; 
+    font-family: 'Italianno', cursive; /* Use your signature font */
+    font-size: 3.5rem;
+    color: #808000; 
+ 
+    padding-bottom: 10px;
 }
+
+
 /* --- Plant Grid --- */
 .plants-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 40px;
     padding-top: 20px;
+    margin-left: 40px;
 }
 /* --- Plant Card (The Leaf Shape) --- */
 .plant-card {

@@ -80,54 +80,54 @@ const plantDatabase = {
         fruit: [
             { name: "Apples", img: "https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg" }, { name: "Pomegranates", img: "https://www.stodels.com/wp-content/uploads/2015/06/156-1.jpg" }, { name: "Cranberries", img: "https://cdn.mos.cms.futurecdn.net/ew2DiaHtYeCAJPyNHpTVpb.jpg" },
             { name: "Persimmons", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBeJ0cgtwurD21QuLbp4AeiL_xXXb_ULRQrQ&s" }, { name: "Grapes", img: "https://greensouq.ae/cdn/shop/files/grapes-red-spain-10-12m-alshjralaanb-fayn-7487504.jpg?v=1756299297&width=800" }, { name: "Quince", img: "https://cdn.mos.cms.futurecdn.net/mjenxAgAwb8y67sZQpjBKn.jpg" },
-            { name: "Kumquats", img: "" }, { name: "Jujubes", img: "" }, { name: "Medlar", img: "" },
-            { name: "Feijoa", img: "" }, { name: "Key Limes", img: "" }, { name: "Passion Fruit", img: "" },
-            { name: "Muscadine Grapes", img: "" }, { name: "Elderberries", img: "" }
+            { name: "Kumquats", img: "https://cdn.britannica.com/17/136017-050-554676CD/Kumquat-fruit.jpg" }, { name: "Jujubes", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR03X95-o5H0JjaKXbe2ih4PXD9LVaAaqxcZw&s" }, { name: "Medlar", img: "https://jurassicplants.co.uk/cdn/shop/products/48.ERIOBOTRYAJAPONICA_dfd1aad0-abe1-48ae-b08e-80556a28fbea_2048x.jpg?v=1680709383" },
+            { name: "Feijoa", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR32qE5AY8SPvsaQn1TdBEUz9yegE2yPop09g&s" }, { name: "Key Limes", img: "https://cdn.mos.cms.futurecdn.net/paFXme9nR22NzQuKcCb74E.jpg" }, { name: "Passion Fruit", img: "https://www.epicgardening.com/wp-content/uploads/2020/02/Passion-Fruit-on-the-vine.jpg" },
+            { name: "Muscadine Grapes", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvXA3Rd2Ur73XLr5OHqIDzmyTh7mn1rwOLmA&s" }, { name: "Elderberries", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlupez5eUqCe7wJ-4U9c5FkF5pTtklxnw6YQ&s" }
         ],
         vegetable: [
-            { name: "Pumpkins", img: "" }, { name: "Sweet Potatoes", img: "" }, { name: "Brussels Sprouts", img: "" },
-            { name: "Butternut Squash", img: "" }, { name: "Cauliflower", img: "" }, { name: "Broccoli", img: "" },
-            { name: "Acorn Squash", img: "" }, { name: "Celery", img: "" }
+            { name: "Pumpkins", img: "https://www.bloomslandcare.com/wp-content/uploads/2016/03/Growing-Perfect-Pumpkins.jpg" }, { name: "Sweet Potatoes", img: "https://cdn.mos.cms.futurecdn.net/VV5DofhcHmsvPhGgYPgoZB-1600-80.jpg" }, { name: "Brussels Sprouts", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKeghLrIn2hQjdxrHmgGPsLCDIBYiGyPS3jQ&s" },
+            { name: "Butternut Squash", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQPaS9LgdLiek0_IEB2Vh8dwO85lRacjoG0w&s" }, { name: "Cauliflower", img: "https://cdn.britannica.com/24/140624-050-A8237BB9/Cauliflower-plant-form-cauliflower-cabbage-flower-structures.jpg" }, { name: "Broccoli", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmaEIIB_0PGdjrZeUEqldIoktQgZlta3gTfw&s" },
+            { name: "Acorn Squash", img: "https://growplant.org/wp-content/uploads/2024/11/acorn-squash-gardening-1024x585.jpg" }, { name: "Celery", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVhKvnD6LHnVzljovu410p0U1PPADCFq0T1w&s" }
         ]
     },
     winter: {
         flower: [
-            { name: "Christmas Rose", img: "" }, { name: "Winter Aconite", img: "" }, { name: "Snowdrop", img: "" },
-            { name: "Witch Hazel", img: "" }, { name: "Winter Camellia", img: "" }, { name: "Winter Jasmine", img: "" },
-            { name: "Glory of the Snow", img: "" }, { name: "Cyclamen", img: "" }, { name: "Sweet Box", img: "" },
-            { name: "Paperwhite", img: "" }, { name: "Wintersweet", img: "" }, { name: "Daphne", img: "" },
-            { name: "Garrya", img: "" }, { name: "Winter Honeysuckle", img: "" }
+            { name: "Christmas Rose", img: "https://plantscapers.com/wp-content/uploads/2017/12/christmas-rose-blush.jpg" }, { name: "Winter Aconite", img: "https://i.guim.co.uk/img/media/d593b3ff623a8ba428eff5086e8dd45081fb49c0/0_188_1238_743/master/1238.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=aa9f46b6bf5d8a318608d77933d6a900" }, { name: "Snowdrop", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0gmNeIMSLM1yj75A-75S0VH9xsX3VwuYaEA&s" },
+            { name: "Witch Hazel", img: "https://www.gardenia.net/wp-content/uploads/2023/05/witch-hazel-plant-care-and-growing-guide.webp" }, { name: "Winter Camellia", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Cold-Hardy-Camellias.webp" }, { name: "Winter Jasmine", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Jasminum-Nudiflorum-Winter-Jasmine-780x520.webp" },
+            { name: "Glory of the Snow", img: "https://www.gardenia.net/wp-content/uploads/2023/05/chionodoxa-forbesii-alba.webp" }, { name: "Cyclamen", img: "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:200,cw:1200,ch:1200,q:80,w:1200/Nh9dBt4Gyx8ng9USL3WD4D.jpg" }, { name: "Sweet Box", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdX65PZivobeZcBZDyAdX-h53MjhkyPl6zrQ&s" },
+            { name: "Paperwhite", img: "https://cdn.mos.cms.futurecdn.net/UiSq8VUfRm2dWAJfrNne95.jpg" }, { name: "Wintersweet", img: "https://www.gardenia.net/wp-content/uploads/2023/04/50530970_m.webp" }, { name: "Daphne", img: "https://www.theenglishgarden.co.uk/_gatsby/file/8203da9c202bd3c793631346afb15a82/shutterstock_1928266613.jpg" },
+            { name: "Garrya", img: "https://i.ebayimg.com/images/g/XecAAOSwsZpkZ5f~/s-l400.jpg" }, { name: "Winter Honeysuckle", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Lonicera-fragrantissima-Sweetest-Honeysuckle.webp" }
         ],
         tree: [
-            { name: "Cashew Tree", img: "" }, { name: "Witch Hazel", img: "" }, { name: "Winter Camellia", img: "" },
-            { name: "Winter Jasmine", img: "" }, { name: "Wintersweet", img: "" }, { name: "Winter Flowering Cherry", img: "" },
-            { name: "Paperbark Maple", img: "" }, { name: "Garrya Shrub", img: "" }, { name: "Sweet Box", img: "" },
-            { name: "Holly Tree", img: "" }, { name: "Winter Daphne", img: "" }, { name: "Walking Stick", img: "" },
-            { name: "Coral Bark Maple", img: "" }, { name: "Dawn Redwood", img: "" }, { name: "Lenten Rose", img: "" }
+            { name: "Cashew Tree", img: "https://cdn.britannica.com/63/24363-050-9CB64F14/Cashew-apples-nuts-cashew-tree.jpg" }, { name: "Witch Hazel", img: "https://www.gardenia.net/wp-content/uploads/2023/05/witch-hazel-plant-care-and-growing-guide.webp" }, { name: "Winter Camellia", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Cold-Hardy-Camellias.webp" },
+            { name: "Winter Jasmine", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Jasminum-Nudiflorum-Winter-Jasmine-780x520.webp" }, { name: "Wintersweet", img: "https://www.gardenia.net/wp-content/uploads/2023/05/chimonanthus-praecox-711x533.webp" }, { name: "Winter Flowering Cherry", img: "https://wovenwood.co.uk/cdn/shop/files/pink-winter-flowering-cherry-tree-prunus-x-subhirtella-autumnalis-rosea_306_8c62a8d7-9e51-4ee8-bcce-707f96a136b9_1500x1500.webp?v=1752855209" },
+            { name: "Paperbark Maple", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9vipEeBBgA3VgIEP9FSFNeo_n82jZrPJDw&s" }, { name: "Garrya Shrub", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0YxyDW2HMpruTMA6jTNUuFHr8Gl7lvXmrQ&s" }, { name: "Sweet Box", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdX65PZivobeZcBZDyAdX-h53MjhkyPl6zrQ&s" },
+            { name: "Holly Tree", img: "https://upload.wikimedia.org/wikipedia/commons/9/96/Ilex-aquifolium_%28Europaeische_Stechpalme-1%29.jpg" }, { name: "Winter Daphne", img: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Daphne_odora-ja01.jpg" }, { name: "Walking Stick", img: "https://plants.millcreekgardens.com/Content/Images/Photos/G032-14.jpg" },
+            { name: "Coral Bark Maple", img: "https://cdn.mos.cms.futurecdn.net/ZnkaRd9AghV9Jcv77qnBHS.jpg" }, { name: "Dawn Redwood", img: "https://images.squarespace-cdn.com/content/v1/545140d8e4b02179fa6291c4/1415861408059-1QEH9MS4UZ719C8EGSH4/MAD_2101w2.jpg?format=1500w" }, { name: "Lenten Rose", img: "https://hort.extension.wisc.edu/files/2018/03/Helleborus-flowering-300x261.jpg" }
         ],
         fruit: [
-            { name: "Oranges", img: "" }, { name: "Grapefruit", img: "" }, { name: "Lemons", img: "" },
-            { name: "Clementines", img: "" }, { name: "Mandarins", img: "" }, { name: "Blood Oranges", img: "" }, { name: "Kiwi", img: "" }
+            { name: "Oranges", img: "https://images-na.ssl-images-amazon.com/images/I/817Pk0mQSRL._UL500_.jpg" }, { name: "Grapefruit", img: "https://gardenplannerwebsites.azureedge.net/plants/GRP.jpg" }, { name: "Lemons", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqSQ6mvm7xdGA5v-KzZy4-Fb72WHOrhU6Bfw&s" },
+            { name: "Clementines", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCHwnIvtOdTP-_Vy61B-CQoGVaXEFY5uaAQ&s" }, { name: "Mandarins", img: "https://plantsexpress.com/cdn/shop/products/Clementine-mandarin-tree1.jpg?v=1684453698" }, { name: "Blood Oranges", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBVqx499T8bx1Hm6qxbh241O-39fPCngfa4g&s" }, { name: "Kiwi", img: "https://www.groworganic.com/cdn/shop/articles/Kiwi-Growing-Guide_0a735c91-4325-44c2-9874-b4bca54d2577.jpg?v=1770145689" }
         ],
         vegetable: [
-            { name: "Daikon", img: "" }, { name: "Turnips", img: "" }, { name: "Kale", img: "" },
-            { name: "Green Cabbage", img: "" }, { name: "Sea Kale", img: "" }
+            { name: "Daikon", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hSAvKNNcxJc-JOhXiusrFVvJoxwBuvRepQ&s" }, { name: "Turnips", img: "https://www.pioneeragroindustry.com/shop/wp-content/uploads/2017/10/turnip.gif" }, { name: "Kale", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsqS21GpDy2ykMYa3eVesWlwN8psy-3b6Mw&s" },
+            { name: "Green Cabbage", img: "https://www.mammothonion.co.uk/wp-content/uploads/2021/01/cabbage-savoy.jpg" }, { name: "Sea Kale", img: "https://cdn.mos.cms.futurecdn.net/Umh7X3CgGhAbzJAJCo7WXb-1600-80.jpg" }
         ]
     },
     "year-round": {
         flower: [
-            { name: "African Violet", img: "" }, { name: "Anthurium", img: "" }, { name: "Cape Primrose", img: "" },
-            { name: "Crown of Thorns", img: "" }, { name: "Peace Lily", img: "" }, { name: "Ixora", img: "" },
-            { name: "Bougainvillea", img: "" }, { name: "Hibiscus", img: "" }, { name: "Periwinkle", img: "" },
-            { name: "Plumbago", img: "" }, { name: "Everblooming Gardenia", img: "" }
+            { name: "African Violet", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-SImMl2oauefC7tbgm9LkPp7Jw-Cu6XCEg&s" }, { name: "Anthurium", img: "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_108525305.jpg" }, { name: "Cape Primrose", img: "https://www.gardenia.net/wp-content/uploads/2023/05/streptocarpus-hope-780x520.webp" },
+            { name: "Crown of Thorns", img: "https://cdn.mos.cms.futurecdn.net/v2/t:150,l:0,cw:1600,ch:900,q:80,w:1600/9NFZhTxqnmMTRL5ScuYhDb.jpg" }, { name: "Peace Lily", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVNZf6_wDDDIorn2MjVMzbXdxrVyMD_JtxQ&s" }, { name: "Ixora", img: "https://cdn.mos.cms.futurecdn.net/57fvVQjFChwzj7iJAcpsk7-1600-80.jpg" },
+            { name: "Bougainvillea", img: "https://acaciagardencenter.com/cdn/shop/articles/bougainvillea-care-in-dubai-growing-the-uaes-most-popular-flowering-plant-1266513.jpg?crop=center&height=1200&v=1777665941&width=1200" }, { name: "Hibiscus", img: "https://www.terraforma.ae/shop/wp-content/uploads/2014/05/SHHRS_1.jpg" }, { name: "Periwinkle", img: "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:283,cw:1131,ch:1131,q:80,w:1131/YVHbF9xrUUM9cmDWWFtzt4.jpg" },
+            { name: "Plumbago", img: "https://cdn.mos.cms.futurecdn.net/GUqVEkQbZwQAAGW3QmmM5U.jpg" }, { name: "Everblooming Gardenia", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Gardenia-jasminoides-Veitchii-780x520.webp" }
         ],
         tree: [
-            { name: "Areca Palm", img: "" }, { name: "Eucalyptus Tree", img: "" }, { name: "Crown of Thorns", img: "" },
-            { name: "Fiddle Leaf Fig", img: "" }, { name: "Weeping Fig", img: "" }, { name: "Bougainvillea", img: "" },
-            { name: "Rubber Tree", img: "" }, { name: "Ixora Shrub", img: "" }
+            { name: "Areca Palm", img: "https://upload.wikimedia.org/wikipedia/commons/2/22/%E6%95%A3%E5%B0%BE%E8%91%B5Dypsis_lutescens_20210511145013_05.jpg" }, { name: "Eucalyptus Tree", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Eucalyptus_tereticornis_flowers%2C_capsules%2C_buds_and_foliage.jpeg/1280px-Eucalyptus_tereticornis_flowers%2C_capsules%2C_buds_and_foliage.jpeg" }, { name: "Crown of Thorns", img: "https://www.mydomaine.com/thmb/Nmch77cM0TPyhP8lEUXk-97-Zcg=/2049x0/filters:no_upscale():strip_icc()/GettyImages-1094705046-dd78bda3f65a4a3f93c96e5d4806da8c.jpg" },
+            { name: "Fiddle Leaf Fig", img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Starr_031108-0130_Ficus_lyrata.jpg" }, { name: "Weeping Fig", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNqt7CpmYbFfi9UAuulWih2TA1cKmsff63g&s" }, { name: "Bougainvillea", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyTnMJAShNMv8KU_D-jSC8z5bmWb7a-YPBA&s" },
+            { name: "Rubber Tree", img: "https://cdn.britannica.com/34/5934-050-E0273B5B/Latex-trees-rubber-plantation-Malaysia-Kuala-Lumpur.jpg" }, { name: "Ixora Shrub", img: "https://cdn.mos.cms.futurecdn.net/57fvVQjFChwzj7iJAcpsk7.jpg" }
         ],
-        fruit: [{ name: "Coco (Cacao)", img: "" }],
-        vegetable: [{ name: "Chili Peppers", img: "" }]
+        fruit: [{ name: "Coco (Cacao)", img: "https://m.media-amazon.com/images/I/81fvO7Cb4qL._AC_UF1000,1000_QL80_.jpg" }],
+        vegetable: [{ name: "Chili Peppers", img: "https://cdn.britannica.com/62/118162-050-56CC9480/cultivar-Thai-chili-peppers-fruits.jpg" }]
     }
 };
 
@@ -201,11 +201,16 @@ const Mainpg = () => {
             <div className="plants-grid">
                 {loading ? <p className="status-msg">Loading your garden...</p> : (
                     <>
-                        {plants.filter(p => !p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
-                        {activeTab === 'fruit' && plants.some(p => p.isVeg) && (
-                            <h2 className="grid-divider" >Vegetables</h2>
-                        )}
-                        {plants.filter(p => p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
+                    {activeTab === 'fruit' && plants.some(p => !p.isVeg) && (
+                <h2 className="grid-divider">Fruits</h2>
+            )}{plants.filter(p => !p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
+            
+            {activeTab === 'fruit' && plants.some(p => p.isVeg) && (
+               
+                <h2 className="grid-divider" >Vegetables</h2>
+                
+            )}
+            {plants.filter(p => p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
                     </>
                 )}
             </div>
