@@ -1743,7 +1743,7 @@ const plantDatabase = {
         ],
         tree: [
             { name: "Coco Tree", img: "https://m.media-amazon.com/images/I/81fvO7Cb4qL._AC_UF1000,1000_QL80_.jpg",
-              origin: "South America",
+              origin: "South America (or Amazon Basin)",
     symbol: "Nourishment",
     pollinators: "Midges",
     use: "Culinary (cacao)",
@@ -2708,41 +2708,446 @@ const plantDatabase = {
     habitat: "Orchards",
     Recipes: "Juice, salads, marmalade"
              }, 
-            { name: "Grapefruit", img: "https://gardenplannerwebsites.azureedge.net/plants/GRP.jpg"m }, 
-            { name: "Lemons", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqSQ6mvm7xdGA5v-KzZy4-Fb72WHOrhU6Bfw&s" },
-            { name: "Clementines", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCHwnIvtOdTP-_Vy61B-CQoGVaXEFY5uaAQ&s" }, 
-            { name: "Mandarins", img: "https://plantsexpress.com/cdn/shop/products/Clementine-mandarin-tree1.jpg?v=1684453698" }, 
-            { name: "Blood Oranges", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBVqx499T8bx1Hm6qxbh241O-39fPCngfa4g&s" }, 
-            { name: "Kiwi", img: "https://www.groworganic.com/cdn/shop/articles/Kiwi-Growing-Guide_0a735c91-4325-44c2-9874-b4bca54d2577.jpg?v=1770145689" }
+            { name: "Grapefruit", img: "https://gardenplannerwebsites.azureedge.net/plants/GRP.jpg",
+                origin: "Barbados",
+    symbol: "Health",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "Interacts with some medications",
+    status: "Common",
+    fact: "A cross between a pomelo and a sweet orange.",
+    fauna: "Bees",
+    edible: "Fruit",
+    care: "Full sun, warm climate",
+    habitat: "Orchards",
+    Recipes: "Fresh, juice, salads"
+             }, 
+            { name: "Lemons", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqSQ6mvm7xdGA5v-KzZy4-Fb72WHOrhU6Bfw&s" ,
+                origin: "Northeast India",
+    symbol: "Vitality",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "High citric acid content.",
+    fauna: "Bees",
+    edible: "Fruit",
+    care: "Full sun, warm climate",
+    habitat: "Orchards",
+    Recipes: "Lemonade, dressings, baking"
+            },
+            { name: "Clementines", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCHwnIvtOdTP-_Vy61B-CQoGVaXEFY5uaAQ&s",
+                origin: "Algeria",
+    symbol: "Sweetness",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "Seedless hybrid variety.",
+    fauna: "Bees",
+    edible: "Fruit",
+    care: "Full sun, warm climate",
+    habitat: "Orchards",
+    Recipes: "Snacking, salads"
+             }, 
+            { name: "Mandarins", img: "https://plantsexpress.com/cdn/shop/products/Clementine-mandarin-tree1.jpg?v=1684453698",
+                origin: "China",
+    symbol: "Good luck",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "Easy to peel.",
+    fauna: "Bees",
+    edible: "Fruit",
+    care: "Full sun, warm climate",
+    habitat: "Orchards",
+    Recipes: "Snacking, desserts"
+             }, 
+            { name: "Blood Oranges", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBVqx499T8bx1Hm6qxbh241O-39fPCngfa4g&s",
+                origin: "Mediterranean",
+    symbol: "Mystery",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "Red flesh due to anthocyanin pigment.",
+    fauna: "Bees",
+    edible: "Fruit",
+    care: "Full sun, cool nights",
+    habitat: "Orchards",
+    Recipes: "Juice, cocktails, salads"
+             }, 
+            { name: "Kiwi", img: "https://www.groworganic.com/cdn/shop/articles/Kiwi-Growing-Guide_0a735c91-4325-44c2-9874-b4bca54d2577.jpg?v=1770145689",
+                origin: "China",
+    symbol: "Vitality",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "Fuzzy brown skin.",
+    fauna: "Bees",
+    edible: "Fruit",
+    care: "Partial shade to full sun, rich soil",
+    habitat: "Vineyards",
+    Recipes: "Smoothies, fruit salads"
+             }
         ],
         vegetable: [
-            { name: "Daikon", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hSAvKNNcxJc-JOhXiusrFVvJoxwBuvRepQ&s" },
-             { name: "Turnips", img: "https://www.pioneeragroindustry.com/shop/wp-content/uploads/2017/10/turnip.gif" }, 
-             { name: "Kale", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsqS21GpDy2ykMYa3eVesWlwN8psy-3b6Mw&s" },
-            { name: "Green Cabbage", img: "https://www.mammothonion.co.uk/wp-content/uploads/2021/01/cabbage-savoy.jpg" }, 
-            { name: "Sea Kale", img: "https://cdn.mos.cms.futurecdn.net/Umh7X3CgGhAbzJAJCo7WXb-1600-80.jpg" }
+            { name: "Daikon", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0hSAvKNNcxJc-JOhXiusrFVvJoxwBuvRepQ&s",
+                origin: "East Asia",
+    symbol: "Longevity",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "A mild winter radish.",
+    fauna: "None",
+    edible: "Root",
+    care: "Cool season, full sun",
+    habitat: "Gardens",
+    Recipes: "Pickled, soups, stir-fries"
+             },
+             { name: "Turnips", img: "https://www.pioneeragroindustry.com/shop/wp-content/uploads/2017/10/turnip.gif",
+                origin: "Europe",
+    symbol: "Nourishment",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "Both root and greens are edible.",
+    fauna: "None",
+    edible: "Root/greens",
+    care: "Cool season, full sun",
+    habitat: "Gardens",
+    Recipes: "Roasted, mashed, soups"
+              }, 
+             { name: "Kale", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsqS21GpDy2ykMYa3eVesWlwN8psy-3b6Mw&s",
+                origin: "Mediterranean",
+    symbol: "Resilience",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "A nutrient-dense superfood.",
+    fauna: "None",
+    edible: "Leaves",
+    care: "Cool season, full sun",
+    habitat: "Gardens",
+    Recipes: "Salads, smoothies, chips"
+              },
+            { name: "Green Cabbage", img: "https://www.mammothonion.co.uk/wp-content/uploads/2021/01/cabbage-savoy.jpg" ,
+                origin: "Europe",
+    symbol: "Simplicity",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "Forms a tight head of leaves.",
+    fauna: "None",
+    edible: "Leaves",
+    care: "Cool season, full sun",
+    habitat: "Gardens",
+    Recipes: "Slaw, cabbage rolls, stir-fries"
+            }, 
+            { name: "Sea Kale", img: "https://cdn.mos.cms.futurecdn.net/Umh7X3CgGhAbzJAJCo7WXb-1600-80.jpg",
+                origin: "Europe",
+    symbol: "Hardiness",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "None",
+    status: "Uncommon",
+    fact: "Grows along coastlines.",
+    fauna: "None",
+    edible: "Shoots and leaves",
+    care: "Sandy, well-drained soil",
+    habitat: "Coastal areas",
+    Recipes: "Steamed, sautéed"
+             }
         ]
     },
     "year-round": {
         flower: [
-            { name: "African Violet", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-SImMl2oauefC7tbgm9LkPp7Jw-Cu6XCEg&s" },
-             { name: "Anthurium", img: "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_108525305.jpg" },
-            { name: "Cape Primrose", img: "https://www.gardenia.net/wp-content/uploads/2023/05/streptocarpus-hope-780x520.webp" },
-            { name: "Crown of Thorns", img: "https://cdn.mos.cms.futurecdn.net/v2/t:150,l:0,cw:1600,ch:900,q:80,w:1600/9NFZhTxqnmMTRL5ScuYhDb.jpg" }, 
-            { name: "Peace Lily", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVNZf6_wDDDIorn2MjVMzbXdxrVyMD_JtxQ&s" }, 
-            { name: "Ixora", img: "https://cdn.mos.cms.futurecdn.net/57fvVQjFChwzj7iJAcpsk7-1600-80.jpg" },
-            { name: "Bougainvillea", img: "https://acaciagardencenter.com/cdn/shop/articles/bougainvillea-care-in-dubai-growing-the-uaes-most-popular-flowering-plant-1266513.jpg?crop=center&height=1200&v=1777665941&width=1200" }, { name: "Hibiscus", img: "https://www.terraforma.ae/shop/wp-content/uploads/2014/05/SHHRS_1.jpg" }, { name: "Periwinkle", img: "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:283,cw:1131,ch:1131,q:80,w:1131/YVHbF9xrUUM9cmDWWFtzt4.jpg" },
-            { name: "Plumbago", img: "https://cdn.mos.cms.futurecdn.net/GUqVEkQbZwQAAGW3QmmM5U.jpg" }, 
-            { name: "Everblooming Gardenia", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Gardenia-jasminoides-Veitchii-780x520.webp" }
+            { name: "African Violet", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-SImMl2oauefC7tbgm9LkPp7Jw-Cu6XCEg&s",
+                origin: "Tanzania, Kenya",
+    symbol: "Commitment",
+    pollinators: "Bees",
+    use: "Ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Popular indoor plant with fuzzy leaves.",
+    fauna: "None",
+    edible: "None",
+    care: "Indirect light, moderate water",
+    habitat: "Indoor/Tropical"
+             },
+             { name: "Anthurium", img: "https://www.gardenia.net/wp-content/uploads/2024/02/shutterstock_108525305.jpg" ,
+                origin: "South America",
+    symbol: "Hospitality",
+    pollinators: "Bees, flies",
+    use: "Ornamental",
+    warning: "Toxic to pets/humans",
+    status: "Common",
+    fact: "Known for heart-shaped, waxy blooms.",
+    fauna: "None",
+    edible: "None",
+    care: "Bright indirect light, humid environment",
+    habitat: "Rainforests"
+             },
+            { name: "Cape Primrose", img: "https://www.gardenia.net/wp-content/uploads/2023/05/streptocarpus-hope-780x520.webp",
+                origin: "South Africa",
+    symbol: "Hope",
+    pollinators: "Insects",
+    use: "Ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Produces trumpet-shaped flowers.",
+    fauna: "None",
+    edible: "None",
+    care: "Indirect light, well-drained soil",
+    habitat: "Shaded rocks/forests"
+             },
+            { name: "Crown of Thorns", img: "https://cdn.mos.cms.futurecdn.net/v2/t:150,l:0,cw:1600,ch:900,q:80,w:1600/9NFZhTxqnmMTRL5ScuYhDb.jpg",
+                origin: "Madagascar",
+    symbol: "Endurance",
+    pollinators: "Insects",
+    use: "Ornamental",
+    warning: "Thorny, toxic sap",
+    status: "Common",
+    fact: "Succulent shrub with woody thorns.",
+    fauna: "None",
+    edible: "None",
+    care: "Full sun, drought-tolerant",
+    habitat: "Tropical"
+             }, 
+            { name: "Peace Lily", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVNZf6_wDDDIorn2MjVMzbXdxrVyMD_JtxQ&s",
+                origin: "Tropical Americas",
+    symbol: "Peace",
+    pollinators: "Insects",
+    use: "Ornamental",
+    warning: "Toxic to pets",
+    status: "Common",
+    fact: "Excellent air-purifying indoor plant.",
+    fauna: "None",
+    edible: "None",
+    care: "Low to indirect light, moist soil",
+    habitat: "Tropical forest floor"
+             }, 
+            { name: "Ixora", img: "https://cdn.mos.cms.futurecdn.net/57fvVQjFChwzj7iJAcpsk7-1600-80.jpg",
+                origin: "Tropical Americas",
+    symbol: "Peace",
+    pollinators: "Insects",
+    use: "Ornamental",
+    warning: "Toxic to pets",
+    status: "Common",
+    fact: "Excellent air-purifying indoor plant.",
+    fauna: "None",
+    edible: "None",
+    care: "Low to indirect light, moist soil",
+    habitat: "Tropical forest floor"
+             },
+            { name: "Bougainvillea", img: "https://acaciagardencenter.com/cdn/shop/articles/bougainvillea-care-in-dubai-growing-the-uaes-most-popular-flowering-plant-1266513.jpg?crop=center&height=1200&v=1777665941&width=1200",
+                origin: "South America",
+    symbol: "Passion",
+    pollinators: "Bees, hummingbirds",
+    use: "Ornamental",
+    warning: "Thorns",
+    status: "Common",
+    fact: "Vibrant 'flowers' are actually colorful bracts.",
+    fauna: "Hummingbirds",
+    edible: "None",
+    care: "Full sun, dry soil once established",
+    habitat: "Tropical/Subtropical"
+             }, 
+            { name: "Hibiscus", img: "https://www.terraforma.ae/shop/wp-content/uploads/2014/05/SHHRS_1.jpg",
+                origin: "Tropics",
+    symbol: "Delicate beauty",
+    pollinators: "Bees, hummingbirds",
+    use: "Culinary, ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Large, showy flowers.",
+    fauna: "Hummingbirds",
+    edible: "Flowers (tea)",
+    care: "Full sun, consistent moisture",
+    habitat: "Gardens/Tropical",
+    Recipes: "Hibiscus tea"
+             },
+             { name: "Periwinkle", img: "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:283,cw:1131,ch:1131,q:80,w:1131/YVHbF9xrUUM9cmDWWFtzt4.jpg",
+                origin: "Madagascar",
+    symbol: "Enduring friendship",
+    pollinators: "Butterflies, bees",
+    use: "Ornamental",
+    warning: "Toxic if ingested",
+    status: "Common",
+    fact: "Hardy, drought-tolerant bloomer.",
+    fauna: "Butterflies",
+    edible: "None",
+    care: "Full sun to partial shade",
+    habitat: "Gardens"
+              },
+            { name: "Plumbago", img: "https://cdn.mos.cms.futurecdn.net/GUqVEkQbZwQAAGW3QmmM5U.jpg",
+                origin: "South Africa",
+    symbol: "Grace",
+    pollinators: "Butterflies",
+    use: "Ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Produces masses of light blue flowers.",
+    fauna: "Butterflies",
+    edible: "None",
+    care: "Full sun, moderate water",
+    habitat: "Gardens"
+             }, 
+            { name: "Everblooming Gardenia", img: "https://www.gardenia.net/wp-content/uploads/2023/05/Gardenia-jasminoides-Veitchii-780x520.webp",
+                origin: "Asia",
+    symbol: "Purity",
+    pollinators: "Moths",
+    use: "Ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Known for intensely fragrant white blooms.",
+    fauna: "None",
+    edible: "None",
+    care: "Partial shade, humid, acidic soil",
+    habitat: "Tropical/Subtropical"
+             }
         ],
         tree: [
-            { name: "Areca Palm", img: "https://upload.wikimedia.org/wikipedia/commons/2/22/%E6%95%A3%E5%B0%BE%E8%91%B5Dypsis_lutescens_20210511145013_05.jpg" }, { name: "Eucalyptus Tree", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Eucalyptus_tereticornis_flowers%2C_capsules%2C_buds_and_foliage.jpeg/1280px-Eucalyptus_tereticornis_flowers%2C_capsules%2C_buds_and_foliage.jpeg" }, { name: "Crown of Thorns", img: "https://www.mydomaine.com/thmb/Nmch77cM0TPyhP8lEUXk-97-Zcg=/2049x0/filters:no_upscale():strip_icc()/GettyImages-1094705046-dd78bda3f65a4a3f93c96e5d4806da8c.jpg" },
-            { name: "Fiddle Leaf Fig", img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Starr_031108-0130_Ficus_lyrata.jpg" }, { name: "Weeping Fig", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNqt7CpmYbFfi9UAuulWih2TA1cKmsff63g&s" }, { name: "Bougainvillea", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyTnMJAShNMv8KU_D-jSC8z5bmWb7a-YPBA&s" },
-            { name: "Rubber Tree", img: "https://cdn.britannica.com/34/5934-050-E0273B5B/Latex-trees-rubber-plantation-Malaysia-Kuala-Lumpur.jpg" }, { name: "Ixora Shrub", img: "https://cdn.mos.cms.futurecdn.net/57fvVQjFChwzj7iJAcpsk7.jpg" }
+            { name: "Areca Palm", img: "https://upload.wikimedia.org/wikipedia/commons/2/22/%E6%95%A3%E5%B0%BE%E8%91%B5Dypsis_lutescens_20210511145013_05.jpg",
+                origin: "Madagascar",
+    symbol: "Vitality",
+    pollinators: "Bees",
+    use: "Ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Popular air-purifying houseplant.",
+    fauna: "None",
+    edible: "None",
+    care: "Bright indirect light, moist soil",
+    habitat: "Tropical"
+             }, 
+            { name: "Eucalyptus Tree", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Eucalyptus_tereticornis_flowers%2C_capsules%2C_buds_and_foliage.jpeg/1280px-Eucalyptus_tereticornis_flowers%2C_capsules%2C_buds_and_foliage.jpeg" ,
+                origin: "Australia",
+    symbol: "Healing",
+    pollinators: "Birds, insects",
+    use: "Medicinal/Essential oils",
+    warning: "Toxic if ingested in large quantities",
+    status: "Common",
+    fact: "Primary food source for koalas.",
+    fauna: "Koalas, birds",
+    edible: "None",
+    care: "Full sun, well-drained soil",
+    habitat: "Forests"
+            },
+             { name: "Crown of Thorns", img: "https://www.mydomaine.com/thmb/Nmch77cM0TPyhP8lEUXk-97-Zcg=/2049x0/filters:no_upscale():strip_icc()/GettyImages-1094705046-dd78bda3f65a4a3f93c96e5d4806da8c.jpg",
+                origin: "Madagascar",
+    symbol: "Endurance",
+    pollinators: "Insects",
+    use: "Ornamental",
+    warning: "Thorny, toxic sap",
+    status: "Common",
+    fact: "Succulent shrub with woody thorns.",
+    fauna: "None",
+    edible: "None",
+    care: "Full sun, drought-tolerant",
+    habitat: "Tropical"
+              },
+            { name: "Fiddle Leaf Fig", img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Starr_031108-0130_Ficus_lyrata.jpg" ,
+                origin: "Western Africa",
+    symbol: "Abundance",
+    pollinators: "Wasps",
+    use: "Ornamental",
+    warning: "Toxic to pets",
+    status: "Common",
+    fact: "Iconic large, violin-shaped leaves.",
+    fauna: "None",
+    edible: "None",
+    care: "Bright indirect light, consistent watering",
+    habitat: "Tropical rainforest"
+            }, 
+            { name: "Weeping Fig", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNqt7CpmYbFfi9UAuulWih2TA1cKmsff63g&s",
+                origin: "Asia, Australia",
+    symbol: "Harmony",
+    pollinators: "Wasps",
+    use: "Ornamental",
+    warning: "Toxic to pets",
+    status: "Common",
+    fact: "Graceful, arching branches.",
+    fauna: "None",
+    edible: "None",
+    care: "Bright indirect light, moderate watering",
+    habitat: "Tropical/Subtropical"
+             }, 
+            { name: "Bougainvillea", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqyTnMJAShNMv8KU_D-jSC8z5bmWb7a-YPBA&s",
+                origin: "South America",
+    symbol: "Passion",
+    pollinators: "Bees, hummingbirds",
+    use: "Ornamental",
+    warning: "Thorns",
+    status: "Common",
+    fact: "Vibrant 'flowers' are actually colorful bracts.",
+    fauna: "Hummingbirds",
+    edible: "None",
+    care: "Full sun, dry soil once established",
+    habitat: "Tropical/Subtropical"
+            },
+            { name: "Rubber Tree", img: "https://cdn.britannica.com/34/5934-050-E0273B5B/Latex-trees-rubber-plantation-Malaysia-Kuala-Lumpur.jpg",
+                origin: "Southeast Asia",
+    symbol: "Resilience",
+    pollinators: "Wasps",
+    use: "Industrial (rubber production)",
+    warning: "Toxic sap",
+    status: "Common",
+    fact: "Source of natural latex.",
+    fauna: "None",
+    edible: "None",
+    care: "Bright indirect light, moderate water",
+    habitat: "Tropical rainforest"
+             }, 
+            { name: "Ixora Shrub", img: "https://cdn.mos.cms.futurecdn.net/57fvVQjFChwzj7iJAcpsk7.jpg",
+                origin: "Tropical Asia",
+    symbol: "Passion",
+    pollinators: "Butterflies, bees",
+    use: "Ornamental",
+    warning: "None",
+    status: "Common",
+    fact: "Dense clusters of star-shaped flowers.",
+    fauna: "Butterflies",
+    edible: "None",
+    care: "Full sun, acidic soil",
+    habitat: "Tropical"
+             }
         ],
-        fruit: [{ name: "Coco (Cacao)", img: "https://m.media-amazon.com/images/I/81fvO7Cb4qL._AC_UF1000,1000_QL80_.jpg" }],
-        vegetable: [{ name: "Chili Peppers", img: "https://cdn.britannica.com/62/118162-050-56CC9480/cultivar-Thai-chili-peppers-fruits.jpg" }]
-    }
+        fruit: [{ name: "Coco (Cacao)", img: "https://m.media-amazon.com/images/I/81fvO7Cb4qL._AC_UF1000,1000_QL80_.jpg",
+            origin: "South America (or Amazon Basin)",
+    symbol: "Luxury",
+    pollinators: "Midges",
+    use: "Culinary",
+    warning: "None",
+    status: "Common",
+    fact: "The seeds are the primary ingredient for chocolate.",
+    fauna: "Midges",
+    edible: "Seeds (cacao beans)",
+    care: "Tropical heat, high humidity, shade",
+    habitat: "Tropical rainforests",
+    Recipes: "Chocolate bars, cocoa powder, beverages"
+         }],
+        vegetable: [{ name: "Chili Peppers", img: "https://cdn.britannica.com/62/118162-050-56CC9480/cultivar-Thai-chili-peppers-fruits.jpg",
+            origin: "Mexico",
+    symbol: "Intensity",
+    pollinators: "Bees",
+    use: "Culinary",
+    warning: "Can cause skin/eye irritation",
+    status: "Common",
+    fact: "Contains capsaicin, which provides the spicy heat.",
+    fauna: "Birds (can eat them without sensing heat)",
+    edible: "Fruit",
+    care: "Full sun, warm soil",
+    habitat: "Gardens",
+    Recipes: "Hot sauces, chili powder, curries"
+         }]
+    },
 };
 
 const Mainpg = () => {
@@ -2787,7 +3192,7 @@ const Mainpg = () => {
                 <div className="about-content">
                     <div className="about-image"><img src="/imgforabout.png" alt="Plantae" /></div>
                     <div className="about-text">
-                        <p>Right touch, right plant for the right season. Discover species curated for your garden.</p>
+                        <p>This website ensures that the right plants are grown in the right season. Enter a season and it will display the plants suitable for that season.</p>
                     </div>
                 </div>
             </section>
@@ -2796,7 +3201,7 @@ const Mainpg = () => {
                 <div className="search-box">
                     <input 
                         type="text" 
-                        placeholder="Enter season (Spring, Summer, Autumn, Winter, Year-round)" 
+                        placeholder="Enter season (spring, summer, autumn, winter, year-round)" 
                         value={searchTerm} 
                         onChange={handleInputChange} 
                     />
@@ -2813,23 +3218,20 @@ const Mainpg = () => {
             )}
 
             <div className="plants-grid">
-                {loading ? <p className="status-msg">Loading your garden...</p> : (
+                {loading ? <p className="status-msg">Opening ...</p> : (
                     <>
                     {activeTab === 'fruit' && plants.some(p => !p.isVeg) && (
-                <h2 className="grid-divider">Fruits</h2>
-            )}{plants.filter(p => !p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
-            
-            {activeTab === 'fruit' && plants.some(p => p.isVeg) && (
-               
-                <h2 className="grid-divider" >Vegetables</h2>
-                
-            )}
-            {plants.filter(p => p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
+                        <h2 className="grid-divider">Fruits</h2>
+                    )}
+                    {plants.filter(p => !p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
+                    
+                    {activeTab === 'fruit' && plants.some(p => p.isVeg) && (
+                        <h2 className="grid-divider">Vegetables</h2>
+                    )}
+                    {plants.filter(p => p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
                     </>
                 )}
             </div>
-            
-
         </div>
     );
 };
@@ -2838,9 +3240,6 @@ const Plantcard = ({ plant }) => {
     const [showDetails, setShowDetails] = useState(false);
     const [apiData, setApiData] = useState(null);
     const [loadingApi, setLoadingApi] = useState(false);
-
-   
-    const imageSrc = plant.img || "https://via.placeholder.com/400x400?text=Add+Image";
 
     const handleMore = async () => {
         setShowDetails(!showDetails);
@@ -2857,21 +3256,44 @@ const Plantcard = ({ plant }) => {
 
     return (
         <div className="plant-card">
+            {/* The Image Holder enables the zoom effect via CSS */}
             <div className="image-holder">
-                <img src={imageSrc} alt={plant.name} className="plant-image" 
+                <img src={plant.img} alt={plant.name} className="plant-image" 
                      onError={(e) => { e.target.src = "https://via.placeholder.com/400"; }} />
+                {plant.status && plant.status !== "Common" && (
+                    <span className="status-badge">{plant.status}</span>
+                )}
             </div>
             <h3>{plant.name}</h3>
             <button className="more-btn" onClick={handleMore}>{showDetails ? "Less" : "More"}</button>
+            
             {showDetails && (
                 <div className="details-dropdown">
-                    {loadingApi ? <p>Searching details...</p> : (
-                        <>
-                            <p><strong>Sun:</strong> {apiData?.sunlight?.join(', ') || "Full Sun"}</p>
-                            <p><strong>Water:</strong> {apiData?.watering || "Moderate"}</p>
-                            <p><strong>Cycle:</strong> {apiData?.cycle || "Perennial"}</p>
-                        </>
-                    )}
+                    <div className="encyclopedia-view">
+                        <p className="fact-box">📜 <i>"{plant.fact || "No fun fact recorded yet."}"</i></p>
+                        
+                        <div className="info-grid">
+                            <p>🌍 <b>Origin:</b> {plant.origin}</p>
+                            <p>🚩 <b>Symbol:</b> {plant.symbol}</p>
+                            <p>🐝 <b>Nature:</b> {plant.pollinators}</p>
+                            <p>🐦 <b>Fauna:</b> {plant.fauna}</p>
+                            <p>🍴 <b>Edible:</b> {plant.edible}</p>
+                            <p>🏡 <b>Habitat:</b> {plant.habitat}</p>
+                            <p>☀️ <b>Sun:</b> {apiData?.sunlight?.join(', ') || "Full Sun"}</p>
+                            <p>💧 <b>Water:</b> {apiData?.watering || "Moderate"}</p>
+                        </div>
+
+                        <div className="care-section">
+                            <p>🫗 <b>Care Instructions:</b> {plant.care}</p>
+                        </div>
+
+                        {plant.Recipes && <p className="extra-info">🥘 <b>Recipes:</b> {plant.Recipes}</p>}
+                        {plant.Arts_Crafts && <p className="extra-info">🎨 <b>Arts & Crafts:</b> {plant.Arts_Crafts}</p>}
+                        
+                        {plant.warning && plant.warning !== "None" && (
+                            <p className="warning-label">⚠️ <b>Warning:</b> {plant.warning}</p>
+                        )}
+                    </div>
                 </div>
             )}
         </div>
