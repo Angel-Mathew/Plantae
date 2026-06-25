@@ -3299,10 +3299,10 @@ const Plantcard = ({ plant }) => {
                             <p><b>Water:</b> {apiData?.watering || "Moderate"}</p>
                             <p><b>Care Instructions:</b> {plant.care}</p>
                         </div>
-                        {plant.Recipes && <p className="extra-info">🥘 <b>Recipes:</b> {plant.Recipes}</p>}
-                        {plant.Arts_Crafts && <p className="extra-info">🎨 <b>Arts & Crafts:</b> {plant.Arts_Crafts}</p>}
+                        {plant.Recipes && <p className="extra-info"> <b>Recipes:</b> {plant.Recipes}</p>}
+                        {plant.Arts_Crafts && <p className="extra-info"> <b>Arts & Crafts:</b> {plant.Arts_Crafts}</p>}
                         {plant.warning && plant.warning !== "None" && (
-                            <p className="warning-label">⚠️ <b>Warning:</b> {plant.warning}</p>
+                            <p className="warning-label"><b>Warning:</b> {plant.warning}</p>
                         )}
                     </div>
                 </div>
