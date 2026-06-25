@@ -1,3 +1,5 @@
+
+
 .category-buttons button {
     background-color: #808000; /* Match your wireframe */
     color: white;
@@ -157,20 +159,35 @@
 
 /* Details Dropdown Menu */
 .details-dropdown {
-    background-color: #c0c040; ;
-    color: #ffffff;
+    background-color: #c0c040;
+    width: 100%; /* Changed from 250px to 100% to fit card */
+    color: #000000;
     padding: 15px;
     border-radius: 15px;
     margin-top: 15px;
-    
-    font-size: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    animation: fadeIn 0.3s ease;
+    font-size: 13px;
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* Fixed these: Removed the -30px margin to keep text inside */
+.fact-box, .info-grid, .warning-label {
+    margin-left: 0; 
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.extra-info {
+    margin-left: 0;
+    font-size: 12px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 5px;
 }
 
 .details-dropdown p {
     margin: 8px 0;
 }
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }

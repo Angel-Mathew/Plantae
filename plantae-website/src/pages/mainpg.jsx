@@ -3273,19 +3273,18 @@ const Plantcard = ({ plant }) => {
                         <p className="fact-box">📜 <i>"{plant.fact || "No fun fact recorded yet."}"</i></p>
                         
                         <div className="info-grid">
-                            <p>🌍 <b>Origin:</b> {plant.origin}</p>
-                            <p>🚩 <b>Symbol:</b> {plant.symbol}</p>
-                            <p>🐝 <b>Nature:</b> {plant.pollinators}</p>
-                            <p>🐦 <b>Fauna:</b> {plant.fauna}</p>
-                            <p>🍴 <b>Edible:</b> {plant.edible}</p>
-                            <p>🏡 <b>Habitat:</b> {plant.habitat}</p>
-                            <p>☀️ <b>Sun:</b> {apiData?.sunlight?.join(', ') || "Full Sun"}</p>
-                            <p>💧 <b>Water:</b> {apiData?.watering || "Moderate"}</p>
+                            <p><b>Origin:</b> {plant.origin}</p>
+                            <p><b>Symbol:</b> {plant.symbol}</p>
+                            <p> <b>Nature:</b> {plant.pollinators}</p>
+                            <p><b>Fauna:</b> {plant.fauna}</p>
+                            <p> <b>Edible:</b> {plant.edible}</p>
+                            <p> <b>Habitat:</b> {plant.habitat}</p>
+                            <p> <b>Sun:</b> {apiData?.sunlight?.join(', ') || "Full Sun"}</p>
+                            <p> <b>Water:</b> {apiData?.watering || "Moderate"}</p>
+                            <p><b>Care Instructions:</b> {plant.care}</p>
                         </div>
 
-                        <div className="care-section">
-                            <p>🫗 <b>Care Instructions:</b> {plant.care}</p>
-                        </div>
+                        
 
                         {plant.Recipes && <p className="extra-info">🥘 <b>Recipes:</b> {plant.Recipes}</p>}
                         {plant.Arts_Crafts && <p className="extra-info">🎨 <b>Arts & Crafts:</b> {plant.Arts_Crafts}</p>}
