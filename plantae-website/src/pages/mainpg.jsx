@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './mainpg.css';
 
-const API_KEY = 'sk-Vxc86a2793b48ce2918052';
+
 
 // --- MASTER DATABASE ---
 // To add an image, simply paste the link between the "" in the img property.
@@ -3188,9 +3188,16 @@ const Mainpg = () => {
 
     return (
         <div className="mainpg-container">
+         
+            <div className="side-decor grapes-top-left"></div>
+            <div className="side-decor daisies-top-right"></div>
+            <div className="side-decor strawberries-bottom-right"></div>
+
             <section id="about" className="about-section">
                 <div className="about-content">
-                    <div className="about-image"><img src="/imgforabout.png" alt="Plantae" /></div>
+                    <div className="about-image">
+                        <img src="/imgforabout.png" alt="Plantae" />
+                    </div>
                     <div className="about-text">
                         <p>This website ensures that the right plants are grown in the right season. Enter a season and it will display the plants suitable for that season.</p>
                     </div>
@@ -3205,12 +3212,14 @@ const Mainpg = () => {
                         value={searchTerm} 
                         onChange={handleInputChange} 
                     />
-                    <button className="search-button"><img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Search"/></button>
+                    <button className="search-button">
+                      🔍
+                    </button>
                 </div>
             </div>
 
             {showCategories && (
-                <div className="category-buttons">
+                <div className="category-buttons animate-fade-in">
                     <button className="cat-btn" onClick={() => loadCategory('flower')}>Flowers 🌸</button>
                     <button className="cat-btn" onClick={() => loadCategory('tree')}>Trees & Plants 🌿</button>
                     <button className="cat-btn" onClick={() => loadCategory('fruit')}>Fruits & Veg 🍎</button>
@@ -3223,12 +3232,21 @@ const Mainpg = () => {
                     {activeTab === 'fruit' && plants.some(p => !p.isVeg) && (
                         <h2 className="grid-divider">Fruits</h2>
                     )}
-                    {plants.filter(p => !p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
+                    {/* Staggered Animation logic added here */}
+                    {plants.filter(p => !p.isVeg).map((p, i) => (
+                        <div key={i} className="staggered-card" style={{ animationDelay: `${i * 0.1}s` }}>
+                            <Plantcard plant={p} />
+                        </div>
+                    ))}
                     
                     {activeTab === 'fruit' && plants.some(p => p.isVeg) && (
                         <h2 className="grid-divider">Vegetables</h2>
                     )}
-                    {plants.filter(p => p.isVeg).map((p, i) => <Plantcard key={i} plant={p} />)}
+                    {plants.filter(p => p.isVeg).map((p, i) => (
+                        <div key={i} className="staggered-card" style={{ animationDelay: `${i * 0.1}s` }}>
+                            <Plantcard plant={p} />
+                        </div>
+                    ))}
                     </>
                 )}
             </div>
@@ -3249,14 +3267,13 @@ const Plantcard = ({ plant }) => {
                 const res = await fetch(`https://perenual.com/api/species-list?key=${API_KEY}&q=${plant.name}`);
                 const data = await res.json();
                 if (data.data && data.data[0]) setApiData(data.data[0]);
-            } catch (e) { console.log("API limit."); }
+            } catch (e) { console.log("API limit reached."); }
             setLoadingApi(false);
         }
     };
 
     return (
         <div className="plant-card">
-            {/* The Image Holder enables the zoom effect via CSS */}
             <div className="image-holder">
                 <img src={plant.img} alt={plant.name} className="plant-image" 
                      onError={(e) => { e.target.src = "https://via.placeholder.com/400"; }} />
@@ -3270,25 +3287,20 @@ const Plantcard = ({ plant }) => {
             {showDetails && (
                 <div className="details-dropdown">
                     <div className="encyclopedia-view">
-                        <p className="fact-box">📜 <i>"{plant.fact || "No fun fact recorded yet."}"</i></p>
-                        
+                        <p className="fact-box">fact <i>"{plant.fact || "No fun fact recorded yet."}"</i></p>
                         <div className="info-grid">
                             <p><b>Origin:</b> {plant.origin}</p>
                             <p><b>Symbol:</b> {plant.symbol}</p>
-                            <p> <b>Nature:</b> {plant.pollinators}</p>
+                            <p><b>Nature:</b> {plant.pollinators}</p>
                             <p><b>Fauna:</b> {plant.fauna}</p>
-                            <p> <b>Edible:</b> {plant.edible}</p>
-                            <p> <b>Habitat:</b> {plant.habitat}</p>
-                            <p> <b>Sun:</b> {apiData?.sunlight?.join(', ') || "Full Sun"}</p>
-                            <p> <b>Water:</b> {apiData?.watering || "Moderate"}</p>
+                            <p><b>Edible:</b> {plant.edible}</p>
+                            <p><b>Habitat:</b> {plant.habitat}</p>
+                            <p><b>Sun:</b> {apiData?.sunlight?.join(', ') || "Full Sun"}</p>
+                            <p><b>Water:</b> {apiData?.watering || "Moderate"}</p>
                             <p><b>Care Instructions:</b> {plant.care}</p>
                         </div>
-
-                        
-
                         {plant.Recipes && <p className="extra-info">🥘 <b>Recipes:</b> {plant.Recipes}</p>}
                         {plant.Arts_Crafts && <p className="extra-info">🎨 <b>Arts & Crafts:</b> {plant.Arts_Crafts}</p>}
-                        
                         {plant.warning && plant.warning !== "None" && (
                             <p className="warning-label">⚠️ <b>Warning:</b> {plant.warning}</p>
                         )}
